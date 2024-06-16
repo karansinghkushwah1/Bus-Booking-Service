@@ -2,7 +2,6 @@
 import { useState, useEffect, ChangeEvent, FormEvent } from 'react';
 import { firestore } from '@/lib/firebase/firebase';
 import { v4 as uuidv4 } from 'uuid';
-import 'tailwindcss/tailwind.css';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import SeatPlan from '@/components/SeatPlan';
