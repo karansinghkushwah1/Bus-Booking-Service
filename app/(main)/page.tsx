@@ -13,41 +13,7 @@ import Navbar from "@/components/homePage/Navbar";
 import { HeroParallax } from "@/components/ui/hero-parallax";
 import Link from "next/link";
 import Clients from "@/components/clients";
-import volvoThumbnail from "@/public/buses/volvo.jpg"; // Import the thumbnail for Volvo Buses
-import miniBusThumbnail from "@/public/buses/mini.jpg"; // Add the correct path for mini bus
-import touristBusThumbnail from "@/public/buses/tourist.jpg"; // Add the correct path for tourist bus
-import staffBusThumbnail from "@/public/buses/staff.jpg"; // Add the correct path for staff bus
-
-
-export const products = [
-  {
-    title: "Volvo Buses",
-    link: "",
-    thumbnail:
-      volvoThumbnail,
-  },
-  {
-    title: "Mini Buses",
-    link: "",
-    thumbnail:
-      miniBusThumbnail,
-  },
-  {
-    title: "Tourist Buses",
-    link: "",
-    thumbnail:
-      touristBusThumbnail,
-  },
- 
-  {
-    title: "Staff Buses",
-    link: "",
-    thumbnail:
-      staffBusThumbnail,
-  },
-  
-  
-];
+import { products } from "@/data";
 
 const Home: FC = () => {
   return (
