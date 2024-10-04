@@ -28,21 +28,21 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-white w-full border-b md:border-0">
+    <nav className="w-full border-b md:border-0">
       <div className="items-center px-8 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/">
             <Image
               src={Logo}
               alt="Padharo Hamare Desh Logo"
-              width={100}
-              height={100}
-              className="rounded-full"
+              width={55}
+              height={55}
+              className="rounded-full mx-5"
             />
           </Link>
           <div className="md:hidden">
             <button
-              className="text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border"
+              className="text-emerald-50 outline-none p-2 rounded-md focus:border-emerald-400 focus:border"
               onClick={() => setState(!state)}
             >
               <Menu />
@@ -56,7 +56,7 @@ export default function Navbar() {
         >
           <ul className="flex flex-col justify-center items-center space-y-8 md:flex-row md:space-x-6 md:space-y-0">
             {menus.map((item, idx) => (
-              <li key={idx} className="text-gray-600 hover:text-indigo-600">
+              <li key={idx} className="text-emerald-100 hover:text-emerald-400">
                 <Link href={item.path}>{item.title}</Link>
               </li>
             ))}
