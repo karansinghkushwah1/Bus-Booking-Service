@@ -41,7 +41,7 @@ const Register = () => {
     } catch (error:any) {
       
       console.log(error);
-      alert("An error occurred during registration");
+      alert("Email or password was invalid");
     }
     
 
