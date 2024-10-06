@@ -16,14 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
       <body className={`${inter.className} dark`}>
-      <AuthProvider>
-        {children}
+        <AuthProvider>
+          {children}
         </AuthProvider>
-        </body>
-
-      
+      </body>
     </html>
   );
 }

@@ -5,32 +5,53 @@ import staffBusThumbnail from "@/public/buses/staff.jpg"; // Add the correct pat
 
 export const products = [
   {
-    title: "Volvo Buses",
-    link: "",
-    thumbnail:
-      volvoThumbnail,
-  },
-  {
     title: "Mini Buses",
     link: "",
     thumbnail:
       miniBusThumbnail,
   },
   {
+    title: "Volvo Buses",
+    link: "",
+    thumbnail:
+      volvoThumbnail,
+  },
+  {
     title: "Tourist Buses",
     link: "",
     thumbnail:
       touristBusThumbnail,
-  },
- 
+  }, 
   {
     title: "Staff Buses",
     link: "",
     thumbnail:
       staffBusThumbnail,
   },
-  
-  
+  {
+    title: "Volvo Bus",
+    link: "",
+    thumbnail:
+      volvoThumbnail,
+  },
+  {
+    title: "Tourist Bus",
+    link: "",
+    thumbnail:
+      touristBusThumbnail,
+  },
+  {
+    title: "Mini Bus",
+    link: "",
+    thumbnail:
+      miniBusThumbnail,
+  }, 
+  {
+    title: "Staff Bus",
+    link: "",
+    thumbnail:
+      staffBusThumbnail,
+  },
 ];
 
 export const testimonials = [
